@@ -1,0 +1,26 @@
+# Angular
+.angular/
+dist/
+out-tsc/
+
+# Node
+node_modules/
+
+# Coverage
+coverage/
+
+# VS Code
+.vscode/*
+
+# IDEs
+.idea/
+.project
+.classpath
+.settings/
+
+# Logs
+*.log
+
+# Sistema
+.DS_Store
+Thumbs.db

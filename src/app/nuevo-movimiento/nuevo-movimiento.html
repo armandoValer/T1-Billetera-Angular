@@ -1,0 +1,36 @@
+<div class="card h-100 border-primary">
+  <div class="card-header bg-primary text-white">
+    <strong>NuevoMovimientoComponent</strong>
+
+    <span class="badge bg-info float-end"> HIJO </span>
+  </div>
+
+  <div class="card-body">
+    <label class="form-label"> Tipo de movimiento </label>
+
+    <select class="form-select mb-3" [(ngModel)]="tipo">
+      <option value="RECARGA">Recarga</option>
+
+      <option value="GASTO">Gasto</option>
+    </select>
+
+    <label class="form-label"> Monto (S/) </label>
+
+    <input type="number" class="form-control mb-3" [(ngModel)]="monto" />
+
+    @if (obtenerError()) {
+      <div class="alert alert-danger">
+        {{ obtenerError() }}
+      </div>
+    }
+
+    <button
+      type="button"
+      class="btn btn-primary w-100"
+      [disabled]="!formularioValido()"
+      (click)="registrarMovimiento()"
+    >
+      Registrar movimiento
+    </button>
+  </div>
+</div>
