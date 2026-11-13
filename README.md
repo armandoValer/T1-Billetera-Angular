@@ -90,3 +90,8 @@ Armando Valer Cisneros
 Ruth Sofia Luna Bobadilla
 Javier Gamarra Carrasco
 Laura Jhamely Pillaca Obregon
+
+# Evidencias de ejecucion:
+<img width="1906" height="815" alt="image" src="https://github.com/user-attachments/assets/ad93ca73-a616-462a-9594-612ca6b30e39" />
+
+
